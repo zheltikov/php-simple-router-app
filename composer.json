@@ -1,0 +1,28 @@
+{
+    "name": "zheltikov/php-simple-router-app",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zheltikov",
+            "homepage": "https://github.com/zheltikov"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/psr7": "^2.4",
+        "nikic/fast-route": "^1.3"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Zheltikov\\SimpleRouterApp\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "description": "Boilerplate reusable code for simple router applications",
+    "license": "MIT"
+}
